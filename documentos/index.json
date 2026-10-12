@@ -1,14 +1,5 @@
 [
   {
-    "file": "Ya-programamos-distinto-las-aulas-todavia-no-se-enteraron-29261002.md",
-    "title": "Ya programamos distinto las aulas todavia no se enteraron",
-    "slug": "ya-programamos-distinto-las-aulas-todavia-no-se-enteraron",
-    "description": "Ya programamos distinto. Las aulas todavía no se enteraron Fecha: 02 de Octubre de 2026 Tema: Peligros en la evolución de la IA. Nota: El desarrollo de…",
-    "date": "2926-10-02",
-    "uploadedAt": "2026-10-02T16:01:11.917Z",
-    "minutes": 9
-  },
-  {
     "file": "IA-la-verdad-de-las-mentiras-actuales-20261009.md",
     "title": "IA la verdad de las mentiras actuales",
     "slug": "ia-la-verdad-de-las-mentiras-actuales",
@@ -52,5 +43,14 @@
     "date": "2026-09-27",
     "uploadedAt": "2026-09-27T16:01:11.917Z",
     "minutes": 8
+  },
+  {
+    "file": "Ya-programamos-distinto-las-aulas-todavia-no-se-enteraron-29261002.md",
+    "title": "Ya programamos distinto las aulas todavia no se enteraron",
+    "slug": "ya-programamos-distinto-las-aulas-todavia-no-se-enteraron",
+    "description": "Ya programamos distinto. Las aulas todavía no se enteraron Fecha: 02 de Octubre de 2026 Tema: Peligros en la evolución de la IA. Nota: El desarrollo de…",
+    "date": "2926-10-02",
+    "uploadedAt": "2026-10-02T16:01:11.917Z",
+    "minutes": 9
   }
 ]
