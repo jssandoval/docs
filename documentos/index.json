@@ -1,14 +1,5 @@
 [
   {
-    "file": "IA-la-verdad-de-las-mentiras-actuales-20261009.md",
-    "title": "IA la verdad de las mentiras actuales",
-    "slug": "ia-la-verdad-de-las-mentiras-actuales",
-    "description": "IA: la verdad de las mentiras actuales Fecha: 09 de Octubre de 2026 Tema: Peligros en la evolución de la IA. Introducción: La gran puesta en escena del…",
-    "date": "2026-10-09",
-    "uploadedAt": "2026-10-09T16:01:11.917Z",
-    "minutes": 11
-  },
-  {
     "file": "El-juego-de-tronos-de-la-IA-29261016.md",
     "title": "El juego de tronos de la IA",
     "slug": "el-juego-de-tronos-de-la-ia",
@@ -52,5 +43,14 @@
     "date": "2926-10-02",
     "uploadedAt": "2026-10-02T16:01:11.917Z",
     "minutes": 9
+  },
+  {
+    "file": "IA-la-verdad-de-las-mentiras-actuales-20261009.md",
+    "title": "IA la verdad de las mentiras actuales",
+    "slug": "ia-la-verdad-de-las-mentiras-actuales",
+    "description": "IA: la verdad de las mentiras actuales Fecha: 09 de Octubre de 2026 Tema: Peligros en la evolución de la IA. Introducción: La gran puesta en escena del…",
+    "date": "2026-10-09",
+    "uploadedAt": "2026-10-09T16:01:11.917Z",
+    "minutes": 11
   }
 ]
