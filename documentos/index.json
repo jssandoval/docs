@@ -1,11 +1,29 @@
 [
   {
+    "file": "La-Transformación-del-Desarrollo-de-Software-20261113.md",
+    "title": "La Transformación del Desarrollo de Software",
+    "slug": "la-transformacion-del-desarrollo-de-software",
+    "description": "La Transformación del Desarrollo de Software en 2026 Fecha: 13 de Noviembre de 2026 Tema: La Transformación del Desarrollo de Software en 2026: Diagnóstico…",
+    "date": "2026-11-13",
+    "uploadedAt": "2026-11-13T13:29:03.110Z",
+    "minutes": 10
+  },
+  {
     "file": "La-Empresa-con-Inteligencia-Artificial-hacia-2027-20261110.md",
     "title": "La Empresa con Inteligencia Artificial hacia 2027",
     "slug": "la-empresa-con-inteligencia-artificial-hacia-2027",
     "description": "La Empresa con Inteligencia Artificial hacia 2027 Fecha: 10 de Noviembre de 2026 Tema: La Empresa con Inteligencia Artificial hacia 2027: Reconfiguración…",
     "date": "2026-11-10",
     "uploadedAt": "2026-11-09T13:07:39.410Z",
+    "minutes": 11
+  },
+  {
+    "file": "La ilusión del código barato-20261104.md",
+    "title": "La ilusión del código barato",
+    "slug": "la-ilusion-del-codigo-barato",
+    "description": "La ilusión del código barato: por qué la IA encareció el desarrollo de software (y cómo estamos pagando la factura) Fecha: 04 de Noviembre de 2026 Tema:…",
+    "date": "2026-11-04",
+    "uploadedAt": "2026-14-04T16:01:11.917Z",
     "minutes": 11
   },
   {
@@ -88,14 +106,5 @@
     "date": "2026-09-27",
     "uploadedAt": "2026-09-27T16:01:11.917Z",
     "minutes": 8
-  },
-  {
-    "file": "La ilusión del código barato-20261104.md",
-    "title": "La ilusión del código barato",
-    "slug": "la-ilusion-del-codigo-barato",
-    "description": "La ilusión del código barato: por qué la IA encareció el desarrollo de software (y cómo estamos pagando la factura) Fecha: 04 de Noviembre de 2026 Tema:…",
-    "date": "2026-11-04",
-    "uploadedAt": "2026-14-04T16:01:11.917Z",
-    "minutes": 11
   }
 ]
