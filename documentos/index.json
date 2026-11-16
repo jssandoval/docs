@@ -1,5 +1,23 @@
 [
   {
+    "file": "SCRUM-Spec-Driven-Development-20261116.md",
+    "title": "SCRUM Spec Driven Development",
+    "slug": "scrum-spec-driven-development",
+    "description": "SSDD: cómo dirigir agentes de IA con Scrum y especificaciones…",
+    "date": "2026-11-16",
+    "uploadedAt": "2026-16-04T16:01:11.917Z",
+    "minutes": 6
+  },
+  {
+    "file": "La ilusión del código barato-20261104.md",
+    "title": "La ilusión del código barato",
+    "slug": "la-ilusion-del-codigo-barato",
+    "description": "La ilusión del código barato: por qué la IA encareció el desarrollo de software (y cómo estamos pagando la factura) Fecha: 04 de Noviembre de 2026 Tema:…",
+    "date": "2026-11-04",
+    "uploadedAt": "2026-14-04T16:01:11.917Z",
+    "minutes": 11
+  },
+  {
     "file": "La-Transformación-del-Desarrollo-de-Software-20261113.md",
     "title": "La Transformación del Desarrollo de Software",
     "slug": "la-transformacion-del-desarrollo-de-software",
@@ -15,15 +33,6 @@
     "description": "La Empresa con Inteligencia Artificial hacia 2027 Fecha: 10 de Noviembre de 2026 Tema: La Empresa con Inteligencia Artificial hacia 2027: Reconfiguración…",
     "date": "2026-11-10",
     "uploadedAt": "2026-11-09T13:07:39.410Z",
-    "minutes": 11
-  },
-  {
-    "file": "La ilusión del código barato-20261104.md",
-    "title": "La ilusión del código barato",
-    "slug": "la-ilusion-del-codigo-barato",
-    "description": "La ilusión del código barato: por qué la IA encareció el desarrollo de software (y cómo estamos pagando la factura) Fecha: 04 de Noviembre de 2026 Tema:…",
-    "date": "2026-11-04",
-    "uploadedAt": "2026-14-04T16:01:11.917Z",
     "minutes": 11
   },
   {

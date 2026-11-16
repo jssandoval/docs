@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCRUM Spec Driven Development · Bitácora SOFTWARE502</title>
+  <meta name="description" content="&lt;! NOTAS DE PUBLICACIÓN (no se muestran al publicar) Título SEO: SSDD: Scrum + SpecDriven Development para agentes de IA Slug:…">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://blog.software502.com/documentos/scrum-spec-driven-development/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Bitácora SOFTWARE502">
+  <meta property="og:title" content="SCRUM Spec Driven Development · Bitácora SOFTWARE502">
+  <meta property="og:description" content="&lt;! NOTAS DE PUBLICACIÓN (no se muestran al publicar) Título SEO: SSDD: Scrum + SpecDriven Development para agentes de IA Slug:…">
+  <meta property="og:url" content="https://blog.software502.com/documentos/scrum-spec-driven-development/">
+  <meta property="article:published_time" content="2026-11-16">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"SCRUM Spec Driven Development","description":"<! NOTAS DE PUBLICACIÓN (no se muestran al publicar) Título SEO: SSDD: Scrum + SpecDriven Development para agentes de IA Slug:…","datePublished":"2026-11-16","dateModified":"2026-11-16","mainEntityOfPage":"https://blog.software502.com/documentos/scrum-spec-driven-development/","author":{"@type":"Organization","name":"SOFTWARE502"},"publisher":{"@type":"Organization","name":"SOFTWARE502","url":"https://www.software502.com"}}</script>
+</head>
+<body>
+  <main>
+    <p><a href="../../">Bitácora SOFTWARE502</a></p>
+    <article><h1>Del Caos al Control</h1>
+<p> <strong>Fecha:</strong> 16 de Noviembre de 2026</p>
+<blockquote>
+<p> <strong>Tema:</strong> Del Caos al Control: Por qué la Revolución del Desarrollo con IA Necesita Metodología (Scrum + Spec-Driven Development)</p>
+</blockquote>
+<h1>SSDD: cómo dirigir agentes de IA con Scrum y especificaciones</h1>
+<p><em>Un framework de código abierto para que Claude Code, Codex y otros agentes construyan software que puedas revisar, auditar y mantener.</em></p>
+<p>Con un agente de código puedes levantar una aplicación funcional en una tarde. El problema llega tres semanas después: el proyecto ya tiene miles de líneas, nadie recuerda por qué existe la mitad de ellas, un cambio pequeño rompe algo que funcionaba y el agente &quot;arregla&quot; el error inventando una regla de negocio que nadie pidió.</p>
+<p>La IA escribe código muy rápido. Sin dirección, lo que acelera es la deuda técnica.</p>
+<p>En Software502 construimos <strong>SSDD (Scrum + Spec-Driven Development)</strong> para resolver exactamente eso: un framework abierto que le da al agente un proceso, un contrato y límites, y te deja a ti las decisiones.</p>
+<h2>El problema no es la IA, es la falta de contrato</h2>
+<p>Cuando un equipo trabaja con agentes a base de prompts sueltos, suele chocar con tres cosas:</p>
+<ul>
+<li><strong>Alcance ambiguo.</strong> &quot;Crea un login seguro&quot; significa algo distinto para cada modelo y cada sesión. El agente rellena los vacíos con supuestos, y esos supuestos terminan en producción.</li>
+<li><strong>Código sin origen.</strong> El código aparece en el editor, pero nadie puede decir qué requisito cubre ni qué prueba lo respalda. Revisarlo se vuelve adivinar intenciones.</li>
+<li><strong>Desconexión con el negocio.</strong> El backlog dice una cosa y el repositorio otra. El agente avanza, pero no necesariamente hacia lo que el cliente priorizó.</li>
+</ul>
+<p>La pregunta útil ya no es cómo lograr que la IA escriba más código, sino cómo gobernar ese código para que sea predecible y auditable.</p>
+<h2>Qué es SSDD</h2>
+<p>SSDD combina dos prácticas conocidas:</p>
+<ul>
+<li><strong>Scrum</strong>, para organizar el trabajo en historias pequeñas, priorizadas y entregadas por sprint.</li>
+<li><strong>Spec-Driven Development</strong>, para que ninguna línea de código se escriba sin una especificación aprobada antes.</li>
+</ul>
+<p>La premisa es simple: <strong>el agente no decide qué construir. Ejecuta, muy rápido, un contrato que una persona aprobó.</strong></p>
+<p>Ese contrato es un documento de requisitos y criterios de aceptación (DERCAS), alineado con la norma ISO/IEC/IEEE 29148, donde cada requisito tiene un identificador y cada criterio está escrito en formato Dado / Cuando / Entonces.</p>
+<h2>Cómo funciona</h2>
+<p>SSDD se instala en tu repositorio y agrega comandos a tu agente. El trabajo avanza en cuatro momentos, y cada uno termina con una aprobación humana:</p>
+<table>
+<thead>
+<tr>
+<th>Momento</th>
+<th>Qué hace el agente</th>
+<th>Qué apruebas tú</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1. Definir</strong></td>
+<td>Analiza la idea, redacta requisitos, diseña pantallas y arquitectura</td>
+<td>El alcance y las decisiones técnicas</td>
+</tr>
+<tr>
+<td><strong>2. Planificar</strong></td>
+<td>Divide el trabajo en historias pequeñas y prepara el entorno</td>
+<td>El objetivo y el contenido del sprint</td>
+</tr>
+<tr>
+<td><strong>3. Construir</strong></td>
+<td>Por cada historia: especifica, escribe las pruebas, luego el código</td>
+<td>El pull request y la aceptación de la historia</td>
+</tr>
+<tr>
+<td><strong>4. Entregar</strong></td>
+<td>Prepara el pipeline, el despliegue y el monitoreo</td>
+<td>El paso a producción</td>
+</tr>
+</tbody></table>
+<p>Así se ve una historia de usuario de principio a fin:</p>
+<pre><code>/implementar HU-001
+/auditar HU-001
+/aceptar HU-001 --por &quot;Ana López&quot;
+</code></pre>
+<p>El primer comando escribe la especificación, las pruebas y el código. El segundo lanza una auditoría de calidad y seguridad. El tercero lo ejecutas tú cuando verificaste que cumple.</p>
+<h2>Lo que lo hace diferente</h2>
+<p><strong>Las aprobaciones son reales, no decorativas.</strong> Ninguna fase inicia si la anterior no fue aprobada por una persona con nombre. Y si alguien edita un documento ya aprobado, la aprobación caduca hasta que se revise de nuevo. Es control de cambios sin burocracia.</p>
+<p><strong>La trazabilidad la verifica una máquina.</strong> Un script comprueba la cadena completa: cada requisito tiene criterios de aceptación, cada historia responde a un requisito y cada criterio tiene una prueba que lo nombra. Si falta un eslabón, el build falla.</p>
+<p><strong>Las pruebas van primero.</strong> El agente escribe la prueba de cada criterio, confirma que falla y solo entonces implementa. El código existe para cumplir el contrato, no al revés.</p>
+<p><strong>Quien programa no audita.</strong> La revisión de seguridad corre en una sesión separada, sin acceso a la conversación donde se escribió el código.</p>
+<p><strong>El rigor se ajusta al cambio.</strong> Un producto nuevo recorre el ciclo completo. Una funcionalidad sobre un proyecto existente usa un carril corto. Un hotfix solo exige una prueba de regresión y la auditoría.</p>
+<p><strong>No te ata a un agente.</strong> Funciona con Claude Code, Codex, OpenCode, Antigravity y Pi. El estado del proyecto vive en tu repositorio, así que puedes cambiar de herramienta a mitad del camino.</p>
+<h2>Con y sin SSDD</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Prompts sueltos</th>
+<th>Con SSDD</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Punto de partida</td>
+<td>Una instrucción en el chat</td>
+<td>Un requisito con criterios de aceptación</td>
+</tr>
+<tr>
+<td>Quién decide el alcance</td>
+<td>El modelo, por omisión</td>
+<td>Una persona, por escrito</td>
+</tr>
+<tr>
+<td>Revisión de código</td>
+<td>Adivinar qué se intentó</td>
+<td>Comparar contra la especificación</td>
+</tr>
+<tr>
+<td>Cambio de alcance</td>
+<td>Pasa inadvertido</td>
+<td>Invalida la aprobación</td>
+</tr>
+<tr>
+<td>Evidencia para una auditoría</td>
+<td>La conversación, si se guardó</td>
+<td>Requisito → criterio → historia → prueba</td>
+</tr>
+</tbody></table>
+<h2>Para quién es</h2>
+<p>SSDD está pensado para ti si:</p>
+<ul>
+<li>Construyes software para clientes y necesitas demostrar qué se pidió, qué se aprobó y qué se entregó.</li>
+<li>Trabajas en sectores regulados o con el sector público, donde la documentación formal no es opcional.</li>
+<li>Lideras un equipo que ya usa agentes y quieres un proceso común en lugar de que cada quien improvise.</li>
+<li>Eres desarrollador independiente y quieres entregar con la disciplina de un equipo completo.</li>
+</ul>
+<p>Probablemente no lo necesitas para un prototipo de fin de semana o un script de un solo uso. Para eso, un prompt basta.</p>
+<h2>Empieza en dos minutos</h2>
+<pre><code class="language-bash">git clone https://github.com/jssandoval/scrum-sdd.git
+./scrum-sdd/install.sh /ruta/a/tu-proyecto
+</code></pre>
+<p>Abre tu agente en el proyecto y escribe:</p>
+<pre><code>/descubrir Una app para que talleres mecánicos agenden citas por WhatsApp
+</code></pre>
+<p>El agente analiza la idea y se detiene para que la revises. Desde ahí, <code>/estado</code> te dice siempre cuál es el siguiente paso.</p>
+<p>Solo necesitas Python 3 y uno de los agentes soportados. No hay dependencias adicionales ni servicios externos.</p>
+<h2>Dónde estamos</h2>
+<p>SSDD está en su versión 0.4.7 y es software libre bajo licencia MIT: puedes usarlo, modificarlo y llevarlo a proyectos comerciales. Es un proyecto joven. Lo publicamos ahora porque preferimos mejorarlo con equipos reales que pulirlo en privado, y tu experiencia usándolo es lo que más nos sirve.</p>
+<h2>Pruébalo</h2>
+<p>El código, las plantillas y la guía completa están en <a href="https://github.com/jssandoval/scrum-sdd">github.com/jssandoval/scrum-sdd</a>. Instálalo en tu próximo proyecto, abre un issue con lo que encuentres y, si te resulta útil, déjanos una estrella.</p>
+<p>¿Quieres implementarlo en tu equipo? En Software502 te acompañamos con la adopción, la capacitación y la adaptación a tu proceso. Escríbenos.</p>
+</article>
+  </main>
+</body>
+</html>
